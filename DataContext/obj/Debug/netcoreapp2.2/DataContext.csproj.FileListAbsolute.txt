@@ -1,0 +1,9 @@
+C:\Users\home\source\external-repos\planetofcartoons\DataContext\bin\Debug\netcoreapp2.2\DataContext.deps.json
+C:\Users\home\source\external-repos\planetofcartoons\DataContext\bin\Debug\netcoreapp2.2\DataContext.dll
+C:\Users\home\source\external-repos\planetofcartoons\DataContext\bin\Debug\netcoreapp2.2\DataContext.pdb
+C:\Users\home\source\external-repos\planetofcartoons\DataContext\obj\Debug\netcoreapp2.2\DataContext.csprojAssemblyReference.cache
+C:\Users\home\source\external-repos\planetofcartoons\DataContext\obj\Debug\netcoreapp2.2\DataContext.csproj.CoreCompileInputs.cache
+C:\Users\home\source\external-repos\planetofcartoons\DataContext\obj\Debug\netcoreapp2.2\DataContext.AssemblyInfoInputs.cache
+C:\Users\home\source\external-repos\planetofcartoons\DataContext\obj\Debug\netcoreapp2.2\DataContext.AssemblyInfo.cs
+C:\Users\home\source\external-repos\planetofcartoons\DataContext\obj\Debug\netcoreapp2.2\DataContext.dll
+C:\Users\home\source\external-repos\planetofcartoons\DataContext\obj\Debug\netcoreapp2.2\DataContext.pdb

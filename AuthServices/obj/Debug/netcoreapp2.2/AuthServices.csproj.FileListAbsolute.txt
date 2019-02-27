@@ -1,0 +1,12 @@
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\AuthServices.deps.json
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\AuthServices.dll
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\AuthServices.pdb
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.dll
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.xml
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netcoreapp2.2\AuthServices.csprojAssemblyReference.cache
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netcoreapp2.2\AuthServices.csproj.CoreCompileInputs.cache
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netcoreapp2.2\AuthServices.AssemblyInfoInputs.cache
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netcoreapp2.2\AuthServices.AssemblyInfo.cs
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netcoreapp2.2\AuthServices.csproj.CopyComplete
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netcoreapp2.2\AuthServices.dll
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netcoreapp2.2\AuthServices.pdb

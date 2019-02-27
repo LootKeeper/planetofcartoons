@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "planetofcartoons", "planetofcartoons\planetofcartoons.csproj", "{162E3E76-9E2D-4A0F-AAA8-76220A9F0FC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContext", "DataContext\DataContext.csproj", "{1461F9D8-B922-4432-9B13-2560EDBE2ECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServices", "AuthServices\AuthServices.csproj", "{8B90FDDA-F0F1-44CA-8DFC-C70470CF7288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProvider", "DataProvider\DataProvider.csproj", "{3A89FC5F-70C5-43A1-89B9-49F8E4A94F47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,12 +21,24 @@ Global
 		{162E3E76-9E2D-4A0F-AAA8-76220A9F0FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{162E3E76-9E2D-4A0F-AAA8-76220A9F0FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{162E3E76-9E2D-4A0F-AAA8-76220A9F0FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1461F9D8-B922-4432-9B13-2560EDBE2ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1461F9D8-B922-4432-9B13-2560EDBE2ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1461F9D8-B922-4432-9B13-2560EDBE2ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1461F9D8-B922-4432-9B13-2560EDBE2ECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B90FDDA-F0F1-44CA-8DFC-C70470CF7288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B90FDDA-F0F1-44CA-8DFC-C70470CF7288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B90FDDA-F0F1-44CA-8DFC-C70470CF7288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B90FDDA-F0F1-44CA-8DFC-C70470CF7288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A89FC5F-70C5-43A1-89B9-49F8E4A94F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A89FC5F-70C5-43A1-89B9-49F8E4A94F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A89FC5F-70C5-43A1-89B9-49F8E4A94F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A89FC5F-70C5-43A1-89B9-49F8E4A94F47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {04714D14-AB2A-4A1B-911E-10773CFECB3C}
 		LessCompiler = 162e3e76-9e2d-4a0f-aaa8-76220a9f0fc0
+		SolutionGuid = {04714D14-AB2A-4A1B-911E-10773CFECB3C}
 	EndGlobalSection
 EndGlobal
