@@ -9,17 +9,14 @@ namespace AuthServices.Model.Auth
 {
     public class RegistrationModel
     {
-        [Required]
-        [DataType(DataType.EmailAddress)]
+        [Required, DataType(DataType.EmailAddress)]
         [Remote(action: "VerifyEmail", controller: "Auth")]
         public string Email { get; set; }
 
-        [Required]
-        [DataType(DataType.Password)]
+        [Required, DataType(DataType.Password)]
         public string Password { get; set; }
 
-        [Required]
-        [DataType(DataType.Password)]
+        [Required, DataType(DataType.Password)]
         [Compare(nameof(Password))]
         public string ConfirmationPassword { get; set; }
     }

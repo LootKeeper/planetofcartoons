@@ -2464,6 +2464,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "DataContext/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/DataContext.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataContext.dll": {}
+        }
       }
     }
   },
@@ -7589,10 +7599,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "DataContext/1.0.0": {
+      "type": "project",
+      "path": "../DataContext/DataContext.csproj",
+      "msbuildProject": "../DataContext/DataContext.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "DataContext >= 1.0.0",
       "Microsoft.AspNetCore.Mvc >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
@@ -7626,7 +7642,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\home\\source\\external-repos\\planetofcartoons\\DataContext\\DataContext.csproj": {
+              "projectPath": "C:\\Users\\home\\source\\external-repos\\planetofcartoons\\DataContext\\DataContext.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

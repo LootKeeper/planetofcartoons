@@ -7,7 +7,8 @@ namespace DataContext.Repository
 {
     public interface IUserRepository
     {
-        bool IsUserExist(string login);
-        User CreateUser(string login, string password);
+        bool IsLoginExist(string login);
+        User Get(string login, string password);
+        User Create(string login, string password);
     }
 }
