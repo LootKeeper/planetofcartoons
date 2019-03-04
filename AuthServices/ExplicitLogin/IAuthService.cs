@@ -8,6 +8,6 @@ namespace AuthServices.ExplicitLogin
 {
     public interface IAuthService
     {
-        JwtSecurityToken GetToken(User user);
+        string GetToken(User user);
     }
 }

@@ -7,7 +7,7 @@ namespace DataContext.Model.OAuth.Enums
     [Flags]
     public enum RoleType
     {
-        User = 0,
-        Admin = 2
+        User = 2,
+        Admin = 16
     }
 }

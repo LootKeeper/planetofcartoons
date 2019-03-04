@@ -1,8 +1,6 @@
 C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\AuthServices.deps.json
 C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\AuthServices.dll
 C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\AuthServices.pdb
-C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.dll
-C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.xml
 C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netcoreapp2.2\AuthServices.csprojAssemblyReference.cache
 C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netcoreapp2.2\AuthServices.csproj.CoreCompileInputs.cache
 C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netcoreapp2.2\AuthServices.AssemblyInfoInputs.cache
@@ -10,3 +8,8 @@ C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netc
 C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netcoreapp2.2\AuthServices.csproj.CopyComplete
 C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netcoreapp2.2\AuthServices.dll
 C:\Users\home\source\external-repos\planetofcartoons\AuthServices\obj\Debug\netcoreapp2.2\AuthServices.pdb
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\DataContext.dll
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\DataContext.pdb
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\home\source\external-repos\planetofcartoons\AuthServices\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.xml

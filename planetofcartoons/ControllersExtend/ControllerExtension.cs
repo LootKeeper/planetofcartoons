@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace planetofcartoons.ControllersExtend
 {
-    public static class ControllerBaseExtension
+    public static class ControllerExtension
     {
         public static JsonResult Json(this ControllerBase controller, object value)
         {

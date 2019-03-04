@@ -25,12 +25,37 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\auth\model\claimsIdentity.ts" />
+    <None Remove="ClientApp\src\app\auth\model\loginModel.ts" />
+    <None Remove="ClientApp\src\app\auth\model\registrationModel.ts" />
+    <None Remove="ClientApp\src\app\auth\model\role.ts" />
+    <None Remove="ClientApp\src\app\auth\model\roleType.ts" />
+    <None Remove="ClientApp\src\app\auth\model\tokenResponse.ts" />
+    <None Remove="ClientApp\src\app\auth\model\user.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\storage\video\01_02.mp4.mp4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\AuthServices\AuthServices.csproj" />
     <ProjectReference Include="..\DataContext\DataContext.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientApp\src\app\auth\guard\" />
+    <Folder Include="ClientApp\src\app\auth\services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\app\auth\model\claimsIdentity.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\auth\model\loginModel.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\auth\model\registrationModel.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\auth\model\role.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\auth\model\roleType.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\auth\model\tokenResponse.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\auth\model\user.ts" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

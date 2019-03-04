@@ -1,4 +1,5 @@
 using AuthServices.ExplicitLogin;
+using AuthServices.ExplicitLogin.Jwt;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -8,6 +9,7 @@ using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
+using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Tokens;
 using System.IO;
 using System.Text;
@@ -36,8 +38,12 @@ namespace planetofcartoons
                         ValidIssuer = AuthOptions.ISSUER,
                         ValidateIssuerSigningKey = true,
                         IssuerSigningKey = AuthOptions.GetSymmetricSecurityKey(Configuration["JwtKey"])
-                    };
+                    };                    
                 });
+            IdentityModelEventSource.ShowPII = true; 
+            services.AddTransient<IIdentityCreater, IdentityCreater>();
+            services.AddTransient<IJwtCreater, JwtCreater>();
+            services.AddTransient<IAuthService, AuthService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
